@@ -8,6 +8,8 @@ chet = []
 for i in range(num):
     if arr[i]%2 == 0:
         chet.append(arr[i])
+    else:
+        continue
     
 print(f'Список: {arr}')
 if sum(chet) == 0:
