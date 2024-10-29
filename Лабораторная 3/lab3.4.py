@@ -12,8 +12,8 @@ maxEven=0
 
 for i in range(len(array)):
     for j in range(len(array[i])):
-        #if array[i][j]%2==0 and maxEven< array[i][j]:
-        if array[i][j]%2==0 and maxEven< array[i][j] and i == j: # Задание после выполнения базы
+        if array[i][j]%2==0 and maxEven< array[i][j]:
+        # if array[i][j]%2==0 and maxEven< array[i][j] and i == j: # Модификация 
             maxEven = array[i][j]
 
 print(maxEven)
