@@ -1,3 +1,5 @@
+import random
+
 def edin(quantity):
     row = [1 for _ in range(quantity)]
     return row
@@ -11,8 +13,6 @@ def zero_edin(quantity):
     row = [0 for _ in range(quantity-1)]
     row.insert(quantity, 1)
     return row 
-
-import random
 
 rows = int(input("Количество строк: "))
 clmns = int(input("Количество стобцов: "))
