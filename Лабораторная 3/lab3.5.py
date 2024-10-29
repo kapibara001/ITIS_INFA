@@ -1,5 +1,3 @@
-import random
-
 def edin(quantity):
     row = [1 for _ in range(quantity)]
     return row
@@ -16,8 +14,6 @@ def zero_edin(quantity):
 
 rows = int(input("Количество строк: "))
 clmns = int(input("Количество стобцов: "))
-
-#array = [[random.randint(1,20) for _ in range(clmns)] for _ in range(rows)]
 
 for i in range(1, rows+1):
     if i%2 != 0:
