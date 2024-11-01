@@ -1,7 +1,7 @@
 import random
     
-rows = 4 # количество строк...
-cols = 4 # количество столбцов
+rows = int(input("количество строк: ")) 
+cols = int(input("количество столбцов: "))
     
 array=[[random.randint(0,100) for _ in range(cols)] for _ in range(rows)]
     
